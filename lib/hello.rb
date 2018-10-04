@@ -1,5 +1,5 @@
 def hello_t(array)
-  # call your method here!
+  
   if block_given?
     i = 0 
   
@@ -9,8 +9,12 @@ def hello_t(array)
     end 
   
     array 
+    
   else 
+    
     puts "Hey! No block was given!"
-  end 
+    
+  end
+  
 end
 
