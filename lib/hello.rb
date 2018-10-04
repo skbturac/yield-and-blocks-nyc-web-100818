@@ -1,7 +1,8 @@
 def hello_t(array)
   array = []
-  array.each do ||
+  array.each
 end
+return array
 
 # call your method here!
 
